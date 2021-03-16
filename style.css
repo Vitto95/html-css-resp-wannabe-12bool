@@ -1,8 +1,9 @@
-.row {
-  width: 992px;
-  margin-left: auto;
-  margin-right: auto;
+.wrapper {
   margin-top: 100px;
+}
+
+.container {
+  width: 992px;
 }
 
 /* BLOCCO LEZIONI */
@@ -47,7 +48,7 @@
   margin-top: 80px;
 }
 
-#why .row img {
+#why .col-lg-12 img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px;
