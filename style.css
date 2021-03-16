@@ -159,10 +159,29 @@ img {
     width: 992px;
     margin-top: 0;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .wrapper:nth-child(1),
   .wrapper:nth-child(3) {
     background-color: #f2f2cd;
+  }
+
+  .wrapper h1 {
+    font-size: 350%;
+  }
+
+  .wrapper h3 {
+    font-size: 200%;
+  }
+
+  [class*="col-"] {
+    font-size: 190%;
+  }
+
+  #lezioni .col-xs-12:nth-child(2),
+  #steps .col-xs-12:nth-child(2),
+  #steps .col-xs-12:nth-child(3) {
+    margin-top: 20px;
   }
 }
